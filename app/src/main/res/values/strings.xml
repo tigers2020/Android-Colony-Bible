@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android-Colony-Bible</string>
+
+
+
+
+
+    <!--default values-->
+
+    <string name="default_bible_version">t_kjv</string>
+
+
+    <!--use for Preference Settings-->
+    <string name="preference_bible_version" translatable="false">preference_bible_version</string>
+</resources>

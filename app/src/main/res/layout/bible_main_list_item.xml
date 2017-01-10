@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bible_chapter"
+        tools:text="Chapter 1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bible_chapter"
+        android:id="@+id/bible_title"
+        tools:text="The Creation of Heaven and Earth"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bible_title"
+        android:id="@+id/bible_sub_title"
+        tools:text="Thesix days of creation"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/bible_sub_title"
+        android:layout_height="wrap_content"
+        android:id="@+id/bible_verse"
+        tools:text="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/bible_verse"
+        android:layout_below="@id/bible_sub_title"
+        android:layout_height="wrap_content"
+        android:id="@+id/bible_text"
+        tools:text="In the beginning God created the Heaven and the Earth"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
